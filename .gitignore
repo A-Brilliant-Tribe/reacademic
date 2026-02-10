@@ -1,0 +1,51 @@
+# ===========================================
+# WordPress wp-content .gitignore
+# ReAcademic - Migrated from SiteGround
+# ===========================================
+
+# --- SiteGround-specific (not needed on new infra) ---
+sgs_encrypt_key.php
+plugins/sg-cachepress/
+plugins/sg-security/
+plugins/wordpress-starter/
+uploads/siteground-optimizer-assets/
+mu-plugins/0-worker.php
+
+# --- ManageWP / GoDaddy worker plugin ---
+plugins/worker/
+
+# --- Backups (should not be in version control) ---
+ai1wm-backups/
+uploads/ShortpixelBackups/
+
+# --- Cache and temp ---
+cache/
+upgrade/
+upgrade-temp-backup/
+gravatars/
+
+# --- OS and editor files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# --- WordPress debug log ---
+debug.log
+
+# --- Large generated files ---
+*.sql
+*.sql.gz
+*.tar.gz
+*.zip
+
+# --- PHP dependency management (if added later) ---
+vendor/
+
+
+
+uploads/
+wp-content/uploads/
