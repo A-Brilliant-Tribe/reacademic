@@ -21,19 +21,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'dbxmogxudf30uf' );
-
-/** Database username */
-define( 'DB_USER', 'udm1xgyw8jvv0' );
-
-/** Database password */
-define( 'DB_PASSWORD', 'ru4ozqcsho9e' );
-
-/** Database hostname */
-define( 'DB_HOST', '127.0.0.1' );
+define( 'DB_NAME', 'reacademic' );
+define( 'DB_USER', 'wpuser' );
+define( 'DB_PASSWORD', 'StrongPassword123!' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -98,7 +92,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
-/** Sets up WordPress vars and included files. */
-@include_once('/var/lib/sec/wp-settings-pre.php'); // Added by SiteGround WordPress management system
-require_once ABSPATH . 'wp-settings.php';
-@include_once('/var/lib/sec/wp-settings.php'); // Added by SiteGround WordPress management system
+// /** Sets up WordPress vars and included files. */
+// @include_once('/var/lib/sec/wp-settings-pre.php'); // Added by SiteGround WordPress management system
+// require_once ABSPATH . 'wp-settings.php';
+// @include_once('/var/lib/sec/wp-settings.php'); // Added by SiteGround WordPress management system
