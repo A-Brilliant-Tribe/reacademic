@@ -41,6 +41,7 @@ debug.log
 *.sql.gz
 *.tar.gz
 *.zip
+!db.sql
 
 # --- PHP dependency management (if added later) ---
 vendor/
